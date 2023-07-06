@@ -1,7 +1,7 @@
-import StatItem from "components/StatItem/StatItem";
+import StatItem from "components/Statistics/StatItem";
 import PropTypes from 'prop-types'
 
-const Statistics = ({ stats, title = '' }) => {
+const Statistics = ({ stats, title}) => {
   return (
     <section className="statistics">
       {title && <h2 className="title">{title}</h2>}
