@@ -1,10 +1,11 @@
 import StatItem from "components/Statistics/StatItem";
 import PropTypes from 'prop-types'
+import { StyledStatistics } from "./StyledStatistics";
 
 const Statistics = ({ stats, title}) => {
   return (
     <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+      <StyledStatistics>{title && <h2 className="title">{title}</h2>}
 
       <ul className="stat-list">
         {stats.map(stat => {
@@ -16,7 +17,7 @@ const Statistics = ({ stats, title}) => {
             />
           );
         })}
-      </ul>
+      </ul></StyledStatistics>
     </section>
   );
 };

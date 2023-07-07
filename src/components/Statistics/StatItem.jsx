@@ -1,11 +1,16 @@
 import PropTypes from 'prop-types';
+import { StyledStatItem } from './StyledStatItem';
+import { getRandomHecColor } from 'helpers/RandomHexColor';
+
 
 const StatItem = ({ label, percentage }) => {
+  const bgColor = getRandomHecColor();
+
   return (
-    <li className="item">
+    <StyledStatItem $bgColor={bgColor}>
       <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
-    </li>
+      <span className="percentage">{percentage}%</span>
+    </StyledStatItem>
   );
 };
 

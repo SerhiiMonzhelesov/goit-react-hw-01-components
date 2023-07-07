@@ -6,10 +6,11 @@ export const StyledProfile = styled.div`
   align-items: center;
   justify-content: center;
   max-width: 300px;
-  margin: 20px auto;
+  margin: 30px 0;
   border: 1px solid #e3dada;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.78);
 
   & .description {
     display: flex;
