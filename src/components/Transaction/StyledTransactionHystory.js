@@ -9,6 +9,7 @@ export const StyledTransactionHystory = styled.table`
   border-collapse: collapse;
   font-size: 12px;
   table-layout: fixed;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.78);
 
   & thead {
     text-transform: uppercase;

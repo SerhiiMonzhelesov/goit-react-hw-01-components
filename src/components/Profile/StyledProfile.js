@@ -6,7 +6,7 @@ export const StyledProfile = styled.div`
   align-items: center;
   justify-content: center;
   max-width: 300px;
-  margin: 30px 0;
+  margin: 0 0 30px 0;
   border: 1px solid #e3dada;
   border-radius: 10px;
   overflow: hidden;
