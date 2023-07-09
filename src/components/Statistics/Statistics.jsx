@@ -1,4 +1,4 @@
-import StatItem from "components/Statistics/StatItem";
+import StatItem from "components/Statistics/StatItem/StatItem";
 import PropTypes from 'prop-types'
 import { StyledStatistics } from "./StyledStatistics";
 

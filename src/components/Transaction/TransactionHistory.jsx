@@ -1,5 +1,5 @@
 import { StyledTransactionHystory } from './StyledTransactionHystory';
-import TableRow from './TableRow';
+import TableRow from './TableRow/TableRow';
 import PropTypes from 'prop-types'
 
 const TransactionHistory = ({ items }) => {
