@@ -6,9 +6,7 @@ function Container({ children, ...restProps }) {
 }
 
 Container.propTypes = {
-    children: PropTypes.arrayOf(
-        PropTypes.element.isRequired
-    ).isRequired
+    children: PropTypes.node
 };
 
 export default Container;
